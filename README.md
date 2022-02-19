@@ -14,3 +14,22 @@
     <li>Go</li>
     <li>librdkafka</li>
 </ul>
+
+<h4>🕹️Principais comandos: 🕹️</h4>
+<ul>
+    <li>
+        kafka-topics --create --topic=exemplo --partitions=3 --bootstrap-server=localhost:9092
+    </li>
+    <li>
+        kafka-console-producer --topic=exemplo --bootstrap-server=localhost:9092
+    </li>
+    <li>
+        kafka-console-consumer --topic=exemplo --bootstrap-server=localhost:9092
+    </li>
+    <li>
+        kafka-console-consumer --topic=exemplo --bootstrap-server=localhost:9092 --group=x
+    </li>
+    <li>
+        kafka-consumer-groups --group=x --describe --bootstrap-server=localhost:9092
+    </li>
+</ul>
